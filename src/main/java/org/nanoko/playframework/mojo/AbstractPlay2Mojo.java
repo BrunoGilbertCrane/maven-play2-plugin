@@ -99,7 +99,11 @@ public abstract class AbstractPlay2Mojo extends AbstractMojo {
             // List related to Maven source
             "maven.home",
             "guice.disable.misplaced.annotation.check",
-            "classworlds.conf"
+            "classworlds.conf",
+            // tests errors
+            "user.script",
+            "sun.desktop",
+            "user.variant"
     );
 
     /**
